@@ -1,0 +1,827 @@
+
+Table CUSTOMER dropped.
+
+
+Table FULLORDER dropped.
+
+
+Table PRODUCT dropped.
+
+
+Table REQUEST dropped.
+
+
+Table CUSTOMER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table FULLORDER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table PRODUCT created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table REQUEST created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+CUSTOMERID NAME                             ADDRESS         
+---------- -------------------------------- ----------------
+         2 CASUAL FURNITURE                 PLANO, TX       
+         6 MOUNTAIN GALLERY                 BOULDER, CO     
+
+
+   ORDERID ORDERDATE CUSTOMERID
+---------- --------- ----------
+      1006 24-MAR-10          2
+      1007 25-MAR-10          6
+      1008 25-MAR-10          6
+      1009 26-MAR-10          2
+
+
+ PRODUCTID DESCRIPTION                    FINISH          PRICE
+---------- ------------------------------ ---------- ----------
+        10 WRITING DESK                   OAK               425
+        30 DINING TABLE                   ASH               600
+        40 ENTERTAINMENT CENTER           MAPLE             650
+        70 CHILDRENS DRESSER              PINE              300
+
+
+   ORDERID  PRODUCTID   QUANTITY
+---------- ---------- ----------
+      1006         10          4
+      1006         30          2
+      1006         40          1
+      1007         40          3
+      1007         70          1
+      1008         70          1
+      1009         10          1
+      1009         40          1
+
+8 rows selected. 
+
+
+Table CUSTOMER dropped.
+
+
+Table FULLORDER dropped.
+
+
+Table PRODUCT dropped.
+
+
+Table REQUEST dropped.
+
+
+Table CUSTOMER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table FULLORDER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table PRODUCT created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table REQUEST created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Error starting at line : 95 in command -
+select * from information_schema.tables
+SELECT * FROM CUSTOMER
+Error at Command Line : 96 Column : 1
+Error report -
+SQL Error: ORA-00933: SQL command not properly ended
+00933. 00000 -  "SQL command not properly ended"
+*Cause:    
+*Action:
+
+   ORDERID ORDERDATE CUSTOMERID
+---------- --------- ----------
+      1006 24-MAR-10          2
+      1007 25-MAR-10          6
+      1008 25-MAR-10          6
+      1009 26-MAR-10          2
+
+
+ PRODUCTID DESCRIPTION                    FINISH          PRICE
+---------- ------------------------------ ---------- ----------
+        10 WRITING DESK                   OAK               425
+        30 DINING TABLE                   ASH               600
+        40 ENTERTAINMENT CENTER           MAPLE             650
+        70 CHILDRENS DRESSER              PINE              300
+
+
+   ORDERID  PRODUCTID   QUANTITY
+---------- ---------- ----------
+      1006         10          4
+      1006         30          2
+      1006         40          1
+      1007         40          3
+      1007         70          1
+      1008         70          1
+      1009         10          1
+      1009         40          1
+
+8 rows selected. 
+
+
+Table CUSTOMER dropped.
+
+
+Table FULLORDER dropped.
+
+
+Table PRODUCT dropped.
+
+
+Table REQUEST dropped.
+
+
+Table CUSTOMER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table FULLORDER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table PRODUCT created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table REQUEST created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Error starting at line : 95 in command -
+select * from information_schema.tables
+Error at Command Line : 95 Column : 34
+Error report -
+SQL Error: ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+CUSTOMERID NAME                             ADDRESS         
+---------- -------------------------------- ----------------
+         2 CASUAL FURNITURE                 PLANO, TX       
+         6 MOUNTAIN GALLERY                 BOULDER, CO     
+
+
+   ORDERID ORDERDATE CUSTOMERID
+---------- --------- ----------
+      1006 24-MAR-10          2
+      1007 25-MAR-10          6
+      1008 25-MAR-10          6
+      1009 26-MAR-10          2
+
+
+ PRODUCTID DESCRIPTION                    FINISH          PRICE
+---------- ------------------------------ ---------- ----------
+        10 WRITING DESK                   OAK               425
+        30 DINING TABLE                   ASH               600
+        40 ENTERTAINMENT CENTER           MAPLE             650
+        70 CHILDRENS DRESSER              PINE              300
+
+
+   ORDERID  PRODUCTID   QUANTITY
+---------- ---------- ----------
+      1006         10          4
+      1006         30          2
+      1006         40          1
+      1007         40          3
+      1007         70          1
+      1008         70          1
+      1009         10          1
+      1009         40          1
+
+8 rows selected. 
+
+
+Table CUSTOMER dropped.
+
+
+Table FULLORDER dropped.
+
+
+Table PRODUCT dropped.
+
+
+Table REQUEST dropped.
+
+
+Table CUSTOMER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table FULLORDER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table PRODUCT created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table REQUEST created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Error starting at line : 95 in command -
+select * from customer.tables
+Error at Command Line : 95 Column : 24
+Error report -
+SQL Error: ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+CUSTOMERID NAME                             ADDRESS         
+---------- -------------------------------- ----------------
+         2 CASUAL FURNITURE                 PLANO, TX       
+         6 MOUNTAIN GALLERY                 BOULDER, CO     
+
+
+   ORDERID ORDERDATE CUSTOMERID
+---------- --------- ----------
+      1006 24-MAR-10          2
+      1007 25-MAR-10          6
+      1008 25-MAR-10          6
+      1009 26-MAR-10          2
+
+
+ PRODUCTID DESCRIPTION                    FINISH          PRICE
+---------- ------------------------------ ---------- ----------
+        10 WRITING DESK                   OAK               425
+        30 DINING TABLE                   ASH               600
+        40 ENTERTAINMENT CENTER           MAPLE             650
+        70 CHILDRENS DRESSER              PINE              300
+
+
+   ORDERID  PRODUCTID   QUANTITY
+---------- ---------- ----------
+      1006         10          4
+      1006         30          2
+      1006         40          1
+      1007         40          3
+      1007         70          1
+      1008         70          1
+      1009         10          1
+      1009         40          1
+
+8 rows selected. 
+
+
+Table CUSTOMER dropped.
+
+
+Table FULLORDER dropped.
+
+
+Table PRODUCT dropped.
+
+
+Table REQUEST dropped.
+
+
+Table CUSTOMER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table FULLORDER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table PRODUCT created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table REQUEST created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+SP2-0552: Bind variable "('CUSTOMER')" not declared.
+
+CUSTOMERID NAME                             ADDRESS         
+---------- -------------------------------- ----------------
+         2 CASUAL FURNITURE                 PLANO, TX       
+         6 MOUNTAIN GALLERY                 BOULDER, CO     
+
+
+   ORDERID ORDERDATE CUSTOMERID
+---------- --------- ----------
+      1006 24-MAR-10          2
+      1007 25-MAR-10          6
+      1008 25-MAR-10          6
+      1009 26-MAR-10          2
+
+
+ PRODUCTID DESCRIPTION                    FINISH          PRICE
+---------- ------------------------------ ---------- ----------
+        10 WRITING DESK                   OAK               425
+        30 DINING TABLE                   ASH               600
+        40 ENTERTAINMENT CENTER           MAPLE             650
+        70 CHILDRENS DRESSER              PINE              300
+
+
+   ORDERID  PRODUCTID   QUANTITY
+---------- ---------- ----------
+      1006         10          4
+      1006         30          2
+      1006         40          1
+      1007         40          3
+      1007         70          1
+      1008         70          1
+      1009         10          1
+      1009         40          1
+
+8 rows selected. 
+
+
+Table CUSTOMER dropped.
+
+
+Table FULLORDER dropped.
+
+
+Table PRODUCT dropped.
+
+
+Table REQUEST dropped.
+
+
+Table CUSTOMER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table FULLORDER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table PRODUCT created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table REQUEST created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+SP2-0552: Bind variable "'CUSTOMER'" not declared.
+SP2-0552: Bind variable "+" not declared.
+SP2-0552: Bind variable "CONVERT(VARCHAR(11)," not declared.
+SP2-0552: Bind variable "12345)" not declared.
+
+CUSTOMERID NAME                             ADDRESS         
+---------- -------------------------------- ----------------
+         2 CASUAL FURNITURE                 PLANO, TX       
+         6 MOUNTAIN GALLERY                 BOULDER, CO     
+
+
+   ORDERID ORDERDATE CUSTOMERID
+---------- --------- ----------
+      1006 24-MAR-10          2
+      1007 25-MAR-10          6
+      1008 25-MAR-10          6
+      1009 26-MAR-10          2
+
+
+ PRODUCTID DESCRIPTION                    FINISH          PRICE
+---------- ------------------------------ ---------- ----------
+        10 WRITING DESK                   OAK               425
+        30 DINING TABLE                   ASH               600
+        40 ENTERTAINMENT CENTER           MAPLE             650
+        70 CHILDRENS DRESSER              PINE              300
+
+
+   ORDERID  PRODUCTID   QUANTITY
+---------- ---------- ----------
+      1006         10          4
+      1006         30          2
+      1006         40          1
+      1007         40          3
+      1007         70          1
+      1008         70          1
+      1009         10          1
+      1009         40          1
+
+8 rows selected. 
+
+
+Table CUSTOMER dropped.
+
+
+Table FULLORDER dropped.
+
+
+Table PRODUCT dropped.
+
+
+Table REQUEST dropped.
+
+
+Table CUSTOMER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table FULLORDER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table PRODUCT created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table REQUEST created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+CUSTOMERID NAME                             ADDRESS         
+---------- -------------------------------- ----------------
+         2 CASUAL FURNITURE                 PLANO, TX       
+         6 MOUNTAIN GALLERY                 BOULDER, CO     
+
+
+   ORDERID ORDERDATE CUSTOMERID
+---------- --------- ----------
+      1006 24-MAR-10          2
+      1007 25-MAR-10          6
+      1008 25-MAR-10          6
+      1009 26-MAR-10          2
+
+
+ PRODUCTID DESCRIPTION                    FINISH          PRICE
+---------- ------------------------------ ---------- ----------
+        10 WRITING DESK                   OAK               425
+        30 DINING TABLE                   ASH               600
+        40 ENTERTAINMENT CENTER           MAPLE             650
+        70 CHILDRENS DRESSER              PINE              300
+
+
+   ORDERID  PRODUCTID   QUANTITY
+---------- ---------- ----------
+      1006         10          4
+      1006         30          2
+      1006         40          1
+      1007         40          3
+      1007         70          1
+      1008         70          1
+      1009         10          1
+      1009         40          1
+
+8 rows selected. 
+

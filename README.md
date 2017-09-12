@@ -3,57 +3,11 @@ SQL Assignments from CSC 453
 
 Course content is arranged by assignment:
 
-Assignment 1 Key Topics (focusing on creation of relational databases, primary and foreign keys, cascade constraint, and understanding of attribute formatting): 
+Assignment 1 Key Topics (focusing on creation of relational databases, primary and foreign keys, cascade constraint, and understanding of attribute formatting).
 
-Assignment 1 Instructions: 
-Create a relational database schema consisting of the four relation schemas given in the diagram below, representing various entities recorded by a furniture company.  Define all necessary attributes, domains, check constraints, and primary and foreign keys.
+Assignment 2: In Process
 
-You should assume the following:  Each CustomerID is a number with at most three digits, each OrderID is a number with at most four digits, and each ProductID is a number with at most two digits.  Each Name is at most 32 characters long, and each Address is at most 16 characters long.  Each Quantity is a positive whole number between 1 and 100, inclusive.  Each Description is at most 30 characters long, and each Finish is at most 10 characters long.  Each Price is a non-negative value (zero is allowed) representing a price in dollars and cents that cannot exceed 999.99.
-
-In order to avoid conflicts, include DROP TABLE commands for all four tables before your CREATE TABLE statements.  Either drop tables containing foreign keys before the tables containing the referenced primary keys, or use CASCADE CONSTRAINTS.  Verify that the tables have been defined correctly before going on to the next step.
-
-
-2.  Populate the database as follows:
-
-CUSTOMER:
-
-CUSTOMERID             NAME                           ADDRESS              
----------------------- ------------------------------ -------------------- 
-2                      CASUAL FURNITURE               PLANO, TX            
-6                      MOUNTAIN GALLERY               BOULDER, CO          
-
-FULLORDER:
-
-ORDERID                ORDERDATE                 CUSTOMERID             
----------------------- ------------------------- ---------------------- 
-1006                   24-MAR-10                 2                      
-1007                   25-MAR-10                 6                      
-1008                   25-MAR-10                 6                      
-1009                   26-MAR-10                 2                      
-
-PRODUCT:
-
-PRODUCTID              DESCRIPTION                    FINISH     PRICE                  
----------------------- ------------------------------ ---------- ---------- 
-10                     WRITING DESK                   OAK        425                    
-30                     DINING TABLE                   ASH        600                    
-40                     ENTERTAINMENT CENTER           MAPLE      650                    
-70                     CHILDRENS DRESSER              PINE       300                    
-
-REQUEST:
-
-ORDERID                PRODUCTID              QUANTITY               
----------------------- ---------------------- ---------------------- 
-1006                   10                     4                      
-1006                   30                     2                      
-1006                   40                     1                      
-1007                   40                     3                      
-1007                   70                     1                      
-1008                   70                     1                      
-1009                   10                     1                      
-1009                   40                     1                        
-
-Remember to insert the records containing primary key values before inserting the records containing the foreign keys that reference those values.
+ 
 
 
 

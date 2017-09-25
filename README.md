@@ -1,5 +1,5 @@
 # SQL
-SQL Assignments from CSC 453
+SQL Assignments from CSC 453, utilizing SQLDeveloper
 
 Course content is arranged by assignment:
 

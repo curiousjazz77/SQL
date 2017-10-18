@@ -9,8 +9,11 @@ Key Topics: Creation of relational databases, primary and foreign keys, cascade 
 Assignment 2
 Key Topics: Joins, Subqueries
 
-Assignment 3 - In Progress
+Assignment 3
 Key Topics: candidate keys, functional dependencies (partial and transitive), first normal form, third normal form, closures and subsets
+
+Assignment 4
+Key Topics: functional dependencies, third normal form, minimal cover, projections, dependency preservation, nonadditive joins
 
  
 

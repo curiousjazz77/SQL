@@ -65,16 +65,10 @@ begin
     end loop; 
     
     close studentPtr;
-    
+  
+  dbms_output.put_line( 'Wa la!');  
     end;
     
     
     
-    /* output
-    Traversing STUDENT table with a cursor:
-1 : For ID 8000 , Name is Marta
-2 : For ID 2100 , Name is Julie
-3 : For ID 7856 , Name is Crista
-4 : For ID 1130 , Name is Yasmin
-
-/*
+   

@@ -35,6 +35,11 @@ SELECT * FROM STUDENT;
 
 SELECT * FROM TEST;
 
+/*Will get "no rows selected" since called outside of PS/SQL script*/
+
+SELECT ID, Name FROM STUDENT WHERE ID = '1717'; 
+
+
 /*PL/SQL BLOCK*/
 
 declare
@@ -44,10 +49,14 @@ declare
     score TEST.Score%type := '100';
 
 begin
-    dbms_output.put_line( 'Querying STUDENT and TEST table for ID' || targetID || ':'); 
+    dbms_output.put_line( 'Querying STUDENT for ID ' || targetID || ':'); 
     
     /*result stored*/
     
+    /*select into structure is very fragile
+    if changed target to 1717, we get a report that we are querying for 
+    1717, but when hits query with into, we get an error.
+    It's best to write PS/SQL query incrementally so you can isolate the error*/
     SELECT Name, ID
     INTO studentName, studentID
     FROM STUDENT

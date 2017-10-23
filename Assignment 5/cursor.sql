@@ -1,5 +1,17 @@
 /*learning aid, cursors */
 
+
+/*output in the end:
+
+Traversing STUDENT table with a cursor:
+1 : For ID 8000 , Name is Marta
+2 : For ID 2100 , Name is Julie
+3 : For ID 7856 , Name is Crista
+4 : For ID 1130 , Name is Yasmin
+Wa la!
+
+*/
+
 DROP TABLE STUDENT CASCADE CONSTRAINTS;
 DROP TABLE TEST CASCADE CONSTRAINTS;
 

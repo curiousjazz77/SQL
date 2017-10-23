@@ -37,13 +37,13 @@ SELECT * FROM STUDENT;
 
 SELECT * FROM TEST;
 
-/*Will get "no rows selected" since called outside of PS/SQL script.
+/*Will get "no rows selected" since called outside of PL/SQL script.
 But this kind of query will be an issue if transplanted into the select into
 statement (too little data -->will cause error due to null value*/
 SELECT ID, Name FROM STUDENT WHERE ID = '1717'; 
 
 /*We also run into problems if we have too much data to pull.
-this wouldn't work inside the PS/SQL statement.
+this wouldn't work inside the PL/SQL statement.
  This selects entire contents from student table*/
 SELECT ID, Name FROM STUDENT; 
 
@@ -63,7 +63,7 @@ begin
     /*select into structure is very fragile
     if changed target to 1717, we get a report that we are querying for 
     1717, but when hits query with into, we get an error.
-    It's best to write PS/SQL query incrementally so you can isolate the error*/
+    It's best to write PL/SQL query incrementally so you can isolate the error*/
     SELECT Name, ID
     INTO studentName, studentID
     FROM STUDENT

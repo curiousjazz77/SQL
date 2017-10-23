@@ -15,7 +15,8 @@ Key Topics: candidate keys, functional dependencies (partial and transitive), fi
 Assignment 4
 Key Topics: functional dependencies, third normal form, minimal cover, projections, dependency preservation, nonadditive joins
 
- 
+Assignment 5
+Key Topics: PL/SQL (Loops, Cursors, Traversal), Triggers
 
 
 

@@ -4,10 +4,11 @@
 /*output in the end:
 
 Traversing STUDENT table with a cursor:
-1 : For ID 8000 , Name is Marta
-2 : For ID 2100 , Name is Julie
-3 : For ID 7856 , Name is Crista
-4 : For ID 1130 , Name is Yasmin
+1 : For ID 1716 , Name is 
+2 : For ID 8000 , Name is Marta
+3 : For ID 2100 , Name is Julie
+4 : For ID 7856 , Name is Crista
+5 : For ID 1130 , Name is Yasmin
 Wa la!
 
 */
@@ -34,6 +35,10 @@ CREATE TABLE TEST
     FOREIGN KEY (ID)
         REFERENCES STUDENT(ID)
 );
+
+/*null for name, insert ID only here
+empty string will be returned after traversal*/
+INSERT INTO STUDENT (ID) VALUES('1716');
 
 INSERT INTO STUDENT VALUES('8000', 'Marta');
 INSERT INTO STUDENT VALUES('2100', 'Julie');

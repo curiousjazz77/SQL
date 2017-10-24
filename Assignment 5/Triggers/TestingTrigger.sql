@@ -96,15 +96,15 @@ Error starting at line : 3 in command -
 INSERT INTO WORKERS VALUES('Y', 1, 99000)
 Error report -
 ORA-20001: Million Dollar Limit Excceeded
-ORA-06512: at "JOMEKE.SALARYCAP", line 11
-ORA-04088: error during execution of trigger 'JOMEKE.SALARYCAP'
+ORA-06512: at "J...SALARYCAP", line 11
+ORA-04088: error during execution of trigger 'J...SALARYCAP'
 
 
 Error starting at line : 4 in command -
 INSERT INTO WORKERS VALUES('Z', 2, 92000)
 Error report -
 ORA-20001: Million Dollar Limit Excceeded
-ORA-06512: at "JOMEKE.SALARYCAP", line 11
-ORA-04088: error during execution of trigger 'JOMEKE.SALARYCAP'
+ORA-06512: at "J...SALARYCAP", line 11
+ORA-04088: error during execution of trigger 'J...SALARYCAP'
 
 */

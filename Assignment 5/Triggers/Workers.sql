@@ -36,7 +36,7 @@ SELECT * FROM WORKERS;
 SELECT SUM(Salary) FROM WORKERS; 
 
 /* if inserting another employee will total more than
-one million, tests triggered. If not, error message and insert cancelled*/
+one million, tests triggered, error message and insert cancelled*/
 
 CREATE OR REPLACE TRIGGER SalaryCap AFTER INSERT OR UPDATE ON WORKERS
 

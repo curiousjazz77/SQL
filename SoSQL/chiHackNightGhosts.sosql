@@ -1,0 +1,10 @@
+/*interface -  https://vingkan.github.io/soql/ 
+dataset url: https://ghostbusterschi.glitch.me/data */
+
+
+SELECT :id, vehicle_color
+WHERE vehicle_color = 'Orange'
+AND how_many_days_has_the_vehicle_been_reported_as_parked_ >15
+AND how_many_days_has_the_vehicle_been_reported_as_parked_ < 30
+ORDER BY creation_date ASC
+LIMIT 5

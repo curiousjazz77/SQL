@@ -8,3 +8,16 @@ AND how_many_days_has_the_vehicle_been_reported_as_parked_ >15
 AND how_many_days_has_the_vehicle_been_reported_as_parked_ < 30
 ORDER BY creation_date ASC
 LIMIT 5
+
+
+SELECT :id, license_plate
+WHERE license_plate like 'UNK'
+LIMIT 20
+
+SELECT :id, license_plate
+WHERE license_plate ="UNK"
+LIMIT 20
+
+SELECT :id, license_plate
+WHERE license_plate like '%UNK%' /*to get everything in it*/
+LIMIT 20

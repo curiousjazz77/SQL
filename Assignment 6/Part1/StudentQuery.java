@@ -19,9 +19,10 @@ public class StudentQuery {
 
         //Data
         Connection conn;
-        String db = "jdbc:oracle:thin:@140.192.30.237:1521:def";
-        String user = "jomeke";
-        String pass = "cdm1245434";
+        //db, user, and pass omitted for this code. 
+        String db = "*";
+        String user = "*";
+        String pass = "*";
         String grade;
         int countPerGrade;
         int total =0; 

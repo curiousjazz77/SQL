@@ -19,7 +19,7 @@ public class StudentQuery2 {
 
         //Data
         Connection conn;
-        //db, user, and pass omitted for this code. 
+        //db, user, and pass obscured for security purposes 
         String db = "*";
         String user = "*";
         String pass = "*";
@@ -35,8 +35,7 @@ public class StudentQuery2 {
         int incrementF =0;
 
         //Connection Initiation
-        conn = DriverManager.getConnection(db,
-        user, pass);
+        conn = DriverManager.getConnection(db, user, pass);
 
         //System prompt and statement creation
         PreparedStatement st = conn.prepareStatement("SELECT Grade, COUNT(*) FROM GRADING WHERE StudentID= ? GROUP BY Grade");

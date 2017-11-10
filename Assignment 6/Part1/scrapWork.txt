@@ -1,0 +1,48 @@
+ /*scrap work - Tried to implement a hash map, but it didn't work out. Will revisit later:
+     * 
+     * 
+     * ArrayList<String> gradeList = new ArrayList<String>();
+        Map<String, Integer> counts = new HashMap<String, Integer>(){ {
+                put("A", 0);
+                put("B", 0);
+                put("C", 0);
+                put("D", 0);
+                put("F", 0);
+            }};
+            
+     *                 while(r.next()){
+                    grade = r.getString(1);
+                    gradeList.add(grade);
+                    countPerGrade = r.getInt(2);
+                    //int sumAll = s.getInt("COUNT(Grade)");
+                    
+                
+                        for ( String item : gradeList){
+                        if (counts.containsKey(item)){
+                            counts.put(item, 1 + counts.get(item));
+                        }
+                        }
+                            
+           
+                for (String gradeCompiled : counts.keySet()){
+                    if (counts.get(gradeCompiled) >0){
+                    
+                    System.out.println(grade +"'s: " + countPerGrade); 
+                
+                }
+                else{
+                        System.out.println(grade +"'s: " + 0 );
+                        total++;  
+                    }
+                            
+                        }
+                }
+     System.out.println("Total grades: " + total);
+            conn.close();
+            System.out.println("Done");
+        
+     }
+        }
+     }
+        
+        */

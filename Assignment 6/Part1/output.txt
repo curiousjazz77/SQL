@@ -1,0 +1,107 @@
+//Output after running SQL code and then running java file. 
+
+C:\jdeveloper\jdk\bin\javaw.exe -client -classpath C:\jdeveloper\jdev\mywork\Application1\Project1\classes;C:\jdeveloper\jdbc\lib\ojdbc14dms.jar;C:\jdeveloper\jdbc\lib\orai18n.jar;C:\jdeveloper\jdbc\lib\ocrs12.jar;C:\jdeveloper\diagnostics\lib\ojdl.jar;C:\jdeveloper\lib\dms.jar project1.StudentQuery
+Please input the seven-digit StudentID to generate how many of each grade they received.
+You input student ID: 1234567.
+Student 1234567:
+----------------
+A's: 2
+B's: 1
+C's: 1
+D's: 0
+F's: 0
+Total grades: 5
+Process exited with exit code 0.
+
+C:\jdeveloper\jdk\bin\javaw.exe -client -classpath C:\jdeveloper\jdev\mywork\Application1\Project1\classes;C:\jdeveloper\jdbc\lib\ojdbc14dms.jar;C:\jdeveloper\jdbc\lib\orai18n.jar;C:\jdeveloper\jdbc\lib\ocrs12.jar;C:\jdeveloper\diagnostics\lib\ojdl.jar;C:\jdeveloper\lib\dms.jar project1.StudentQuery
+Please input the seven-digit StudentID to generate how many of each grade they received.
+You input student ID: 2345678.
+Student 2345678:
+----------------
+A's: 0
+B's: 1
+C's: 1
+D's: 1
+F's: 0
+Total grades: 4
+Process exited with exit code 0.
+
+
+C:\jdeveloper\jdk\bin\javaw.exe -client -classpath C:\jdeveloper\jdev\mywork\Application1\Project1\classes;C:\jdeveloper\jdbc\lib\ojdbc14dms.jar;C:\jdeveloper\jdbc\lib\orai18n.jar;C:\jdeveloper\jdbc\lib\ocrs12.jar;C:\jdeveloper\diagnostics\lib\ojdl.jar;C:\jdeveloper\lib\dms.jar project1.StudentQuery
+Please input the seven-digit StudentID to generate how many of each grade they received.
+You input student ID: 3456789.
+Student 3456789:
+----------------
+A's: 2
+B's: 0
+C's: 1
+D's: 1
+F's: 0
+Total grades: 4
+Process exited with exit code 0.
+
+
+C:\jdeveloper\jdk\bin\javaw.exe -client -classpath C:\jdeveloper\jdev\mywork\Application1\Project1\classes;C:\jdeveloper\jdbc\lib\ojdbc14dms.jar;C:\jdeveloper\jdbc\lib\orai18n.jar;C:\jdeveloper\jdbc\lib\ocrs12.jar;C:\jdeveloper\diagnostics\lib\ojdl.jar;C:\jdeveloper\lib\dms.jar project1.StudentQuery
+Please input the seven-digit StudentID to generate how many of each grade they received.
+You input student ID: 4567890.
+Student 4567890:
+----------------
+A's: 2
+B's: 0
+C's: 0
+D's: 0
+F's: 0
+Total grades: 1
+Process exited with exit code 0.
+
+C:\jdeveloper\jdk\bin\javaw.exe -client -classpath C:\jdeveloper\jdev\mywork\Application1\Project1\classes;C:\jdeveloper\jdbc\lib\ojdbc14dms.jar;C:\jdeveloper\jdbc\lib\orai18n.jar;C:\jdeveloper\jdbc\lib\ocrs12.jar;C:\jdeveloper\diagnostics\lib\ojdl.jar;C:\jdeveloper\lib\dms.jar project1.StudentQuery
+Please input the seven-digit StudentID to generate how many of each grade they received.
+You input student ID: 5678901.
+Student 5678901:
+----------------
+A's: 0
+B's: 1
+C's: 1
+D's: 0
+F's: 0
+Total grades: 2
+Process exited with exit code 0.
+
+C:\jdeveloper\jdk\bin\javaw.exe -client -classpath C:\jdeveloper\jdev\mywork\Application1\Project1\classes;C:\jdeveloper\jdbc\lib\ojdbc14dms.jar;C:\jdeveloper\jdbc\lib\orai18n.jar;C:\jdeveloper\jdbc\lib\ocrs12.jar;C:\jdeveloper\diagnostics\lib\ojdl.jar;C:\jdeveloper\lib\dms.jar project1.StudentQuery
+Please input the seven-digit StudentID to generate how many of each grade they received.
+You input student ID: 6789012.
+Student 6789012:
+----------------
+A's: 2
+B's: 1
+C's: 0
+D's: 0
+F's: 0
+Total grades: 3
+Process exited with exit code 0.
+
+C:\jdeveloper\jdk\bin\javaw.exe -client -classpath C:\jdeveloper\jdev\mywork\Application1\Project1\classes;C:\jdeveloper\jdbc\lib\ojdbc14dms.jar;C:\jdeveloper\jdbc\lib\orai18n.jar;C:\jdeveloper\jdbc\lib\ocrs12.jar;C:\jdeveloper\diagnostics\lib\ojdl.jar;C:\jdeveloper\lib\dms.jar project1.StudentQuery
+Please input the seven-digit StudentID to generate how many of each grade they received.
+You input student ID: 7890123.
+Student 7890123:
+----------------
+A's: 0
+B's: 1
+C's: 1
+D's: 0
+F's: 1
+Total grades: 3
+Process exited with exit code 0.
+
+C:\jdeveloper\jdk\bin\javaw.exe -client -classpath C:\jdeveloper\jdev\mywork\Application1\Project1\classes;C:\jdeveloper\jdbc\lib\ojdbc14dms.jar;C:\jdeveloper\jdbc\lib\orai18n.jar;C:\jdeveloper\jdbc\lib\ocrs12.jar;C:\jdeveloper\diagnostics\lib\ojdl.jar;C:\jdeveloper\lib\dms.jar project1.StudentQuery
+Please input the seven-digit StudentID to generate how many of each grade they received.
+You input student ID: 8901234.
+Student 8901234:
+----------------
+A's: 0
+B's: 0
+C's: 0
+D's: 0
+F's: 1
+Total grades: 1
+Process exited with exit code 0.

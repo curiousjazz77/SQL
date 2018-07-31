@@ -1,5 +1,4 @@
-# SQL
-SQL Assignments from CSC 453, utilizing SQLDeveloper
+# SQL, utilizing SQLDeveloper
 
 Course content is arranged by assignment:
 

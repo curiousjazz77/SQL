@@ -1,8 +1,5 @@
 /*
-    Jasmine Omeke
-    CSC 453 Section 710
     Assignment 1
-    September 14, 2017
 */
 
 DROP TABLE CUSTOMER CASCADE CONSTRAINTS;

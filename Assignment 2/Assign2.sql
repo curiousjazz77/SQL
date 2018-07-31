@@ -1,9 +1,5 @@
-/* 
-Jasmine Omeke
-CSC 453 
-Section: 710
-Assignment 2 
-Sep 22, 2017
+/*
+Assignment 2
 */
 
 /*

@@ -1,9 +1,8 @@
 /*
-Jasmine Omeke
+
 CSC 453 
-Section 710 Online
 Assignment 5 
-Problem 2, 11/2/2017
+Problem 2
 */
 
 DROP TABLE MEMBER CASCADE CONSTRAINTS;

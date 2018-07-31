@@ -1,8 +1,5 @@
 /*
-    Jasmine Omeke
-    CSC 453 Section 710
     Assignment 3
-    October 2, 2017
 */
 
 DROP TABLE TYPEF CASCADE CONSTRAINTS;

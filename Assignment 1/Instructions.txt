@@ -1,6 +1,6 @@
-Assignment 1 Key Topics (focusing on creation of relational databases, primary and foreign keys, cascade constraint, and understanding of attribute formatting):
+Assignment 1 - Key Topics (focusing on creation of relational databases, primary and foreign keys, cascade constraint, and understanding of attribute formatting):
 
-Assignment 1 Instructions: Create a relational database schema consisting of the four relation schemas given in the diagram below, representing various entities recorded by a furniture company. Define all necessary attributes, domains, check constraints, and primary and foreign keys.
+Assignment 1 - Instructions: Create a relational database schema consisting of the four relation schemas given in the diagram below, representing various entities recorded by a furniture company. Define all necessary attributes, domains, check constraints, and primary and foreign keys.
 
 You should assume the following:
 Each CustomerID is a number with at most three digits, each OrderID is a number with at most four digits. Each ProductID is a number with at most two digits.

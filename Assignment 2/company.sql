@@ -1,7 +1,6 @@
 /*
 	company.sql
 	Eric J. Schwabe
-	CSC 355 Fall 2017
 
 	Script to define and populate the example database
 	COMPANY, modified from Chapter 5 of Elmasri and Navathe's

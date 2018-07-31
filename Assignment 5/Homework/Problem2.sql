@@ -1,7 +1,4 @@
 /*
-
-CSC 453 
-Assignment 5 
 Problem 2
 */
 

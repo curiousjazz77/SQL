@@ -28,3 +28,6 @@ select first_name, last_name
 from customer
 where first_name ilike 'BaR%'; --results come back irrespective of caps
 
+select count(*) from film
+where title like '%truman%'; --5
+

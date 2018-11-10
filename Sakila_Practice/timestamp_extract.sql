@@ -21,5 +21,10 @@ select sum(amount), extract(month from payment_date) as month
 from payment
 group by month
 order by sum(amount) desc
-limit 1
-;
+limit 1;
+
+select sum(amount) as total, extract(month from payment_date) as month 
+from payment
+group by month
+order by total desc
+limit 1;

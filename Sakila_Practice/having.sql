@@ -25,21 +25,18 @@ where rating in ('R', 'G', 'PG')
 group by rating
 having avg(rental_rate) < 3;
 
-
 select rating, avg(rental_rate) 
 from film
 group by rating
 having avg(rental_rate) < 3;
 
+select customer_id, count(amount)
+from payment
+group by customer_id
+having count(amount) >= 40;
 
-
-
-
-
-
-
-
-
-
-
-
+select rating, avg(rental_duration) 
+from film
+group by rating
+having avg(rental_duration) > 5
+; 

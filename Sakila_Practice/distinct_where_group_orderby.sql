@@ -1,4 +1,4 @@
-/* select first_name, last_name, email from customer
+select first_name, last_name, email from customer
 limit 5;
 
 select * from film
@@ -9,7 +9,6 @@ select distinct release_year from film;
 select distinct rental_rate from film;
 
 select distinct rating from film;
-
 
 select rating, count(rating) from film
 group by rating;
@@ -75,14 +74,11 @@ limit 1;
 select address_id, phone from address --432 (id), 419-00-985-7119 (phone)
 where address = '259 Ipoh Drive';
 
-
 select first_name, last_name, address_id from customer --Jesus McCartney
 where address_id =
 (select address_id from address
 where address = '259 Ipoh Drive')
 ;
-
-
 
 select * from payment
 limit 3;
@@ -99,4 +95,16 @@ select amount, count(amount --most purchases are amount 4.99, then 2.99 and then
 from payment
 group by amount
 order by amount;
-*/
+
+select count(amount) 
+from payment
+where amount > 5; --3618 payments were over $5
+
+select count(*) 
+from actor
+where first_name like 'P%';
+
+select count(distinct(district)) from address; --378
+					  
+select distinct(district) 
+from address;

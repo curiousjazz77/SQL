@@ -14,3 +14,7 @@ VALUES
 ('www.google.com', 'Google');
 
 select * from link;
+
+insert into link(url, name)
+VALUES
+('www.yahoo.com', 'Yahoo');

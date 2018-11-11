@@ -26,3 +26,13 @@ VALUES
 ;
 
 select * from link;
+
+CREATE TABLE link_copy (LIKE link); 
+
+select * from link_copy; 
+
+insert into link_copy
+select * from link
+where name = 'Bing'; 
+
+select * from link_copy;

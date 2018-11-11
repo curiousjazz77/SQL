@@ -36,3 +36,10 @@ select * from link
 where name = 'Bing'; 
 
 select * from link_copy;
+
+insert into link (url, name)
+VALUES
+('www.a.com', 'A'),
+('www.b.com', 'B');
+
+select * from link; 

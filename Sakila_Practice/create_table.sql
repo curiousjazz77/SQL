@@ -24,4 +24,13 @@ CREATE TABLE account_role
   CONSTRAINT account_role_user_id_fkey FOREIGN KEY (user_id)
       REFERENCES account (user_id) MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION
-)
+);
+
+create table leads(
+	user_id serial PRIMARY_KEY,
+	first_name VARCHAR(50) NOT NULL,
+	last_name VARCHAR(50) NOT NULL,
+	email VARCHAR(355) UNIQUE NOT NULL,
+	minutes INTEGER NOT NULL,
+	sign_up_ts TIMESTAMP NOT NULL
+);

@@ -18,3 +18,11 @@ select * from link;
 insert into link(url, name)
 VALUES
 ('www.yahoo.com', 'Yahoo');
+
+insert into link(url, name)
+VALUES
+('www.bing.com', 'Bing'),
+('www.amazon.com', 'Amazon')
+;
+
+select * from link;
